@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import { Fragment } from 'react';
 import './App.css';
+import TododApp from './components/todo_app/TodoApp';
+
 
 function App() {
   return (
-    < >
-     <h1>Welcome to redux_hooks_todo_app.</h1>
-    </>
+    < div className="App">
+     <TododApp/>
+    </ div>
   );
 }
 
